@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "sideEffects": false,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && vite build --ssr"
+    },
+    "dependencies": {
+        "@remix-run/node": "^0.0.0-experimental-b5b8702c4",
+        "@remix-run/react": "^0.0.0-experimental-b5b8702c4",
+        "isbot": "^3.6.8",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@remix-run/dev": "^0.0.0-experimental-b5b8702c4",
+        "@remix-run/serve": "^0.0.0-experimental-b5b8702c4",
+        "@types/react": "^18.0.35",
+        "@types/react-dom": "^18.0.11",
+        "eslint": "^8.38.0",
+        "prettier": "^3.0.1",
+        "typescript": "^5.2.2",
+        "vite": "^4.4.9",
+        "vite-tsconfig-paths": "^4.2.1"
+    },
+    "prettier": {
+        "printWidth": 100,
+        "tabWidth": 4,
+        "singleQuote": false,
+        "semi": false,
+        "arrowParens": "avoid"
+    }
+}
